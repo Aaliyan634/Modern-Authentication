@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Authentication Dashboard</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="flex min-h-screen bg-gray-100">
+  <div class="w-60 bg-indigo-900 text-white p-5 hidden md:block">
+    <h2 class="text-2xl font-bold mb-6 flex items-center gap-2"> Modern
+Authentication
+    </h2>
+    <ul class="space-y-4 text-sm">
+      <li><a href="">Dashboard</a></li>
+      <li><a href="">User</a></li>
+      <li><a href="">Security</a></li>
+      <li><a href="">setting</a></li>
+    </ul>
+  </div>
+  <div class="flex-1">
+    <div class="bg-white p-5 shadow flex justify-between items-center">
+      <h1 class="text-xl font-bold">Welcome, Admin</h1>
+      <i class="fas fa-user-circle text-2xl text-indigo-700"></i>
+    </div>
+    <div class="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white p-5 rounded-lg shadow text-center">
+        <h2 class="text-sm text-gray-500">Total Users</h2>
+        <p class="text-2xl font-bold text-indigo-700">1,245</p>
+      </div>
+      <div class="bg-white p-5 rounded-lg shadow text-center">
+        <h2 class="text-sm text-gray-500">Active Sessions</h2>
+        <p class="text-2xl font-bold text-green-600">102</p>
+      </div>
+      <div class="bg-white p-5 rounded-lg shadow text-center">
+        <h2 class="text-sm text-gray-500">2FA Enabled</h2>
+        <p class="text-2xl font-bold text-yellow-500">74%</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
